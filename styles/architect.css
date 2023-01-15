@@ -312,3 +312,90 @@ footer {
     margin: 70px;
     font-weight: 400;
 }
+
+@media only screen and (max-width:576px) {
+    
+    main{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin: 0;
+        flex-direction: column;
+       padding: 0;
+        background-color: #ff8f0e11;
+        width: 100% ;
+    }
+    .header-banner{
+        margin-left: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .nav-title{
+        margin-left: 110px;
+    }
+    .header-img{
+        margin: 0 auto;
+        width: 500px;
+
+    }
+    .header-container{
+        margin-left: 0px;
+    }
+    .nav-info{
+        flex-direction: column;
+       margin-left: 100px;
+    }
+    .about-img{
+        flex-direction: column;
+    }
+    .some-container{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-left: 50px;
+    }
+    .some-section{
+        margin-left: 130px;
+    }
+    .some-section h3{
+        margin-left: 0px;
+    }
+    .text-description{
+        flex-direction: column;
+        margin-left: px;
+    }
+    .main-text-btn{
+        justify-items: center;
+        margin-left: 100px;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-text-img{
+        margin-left: 30px;
+    }
+    .text-sab-description{
+        text-align: center;
+        margin-left: 10px;
+    }
+    
+    
+    .main-btn{
+        margin-left: 250px;
+    }
+    .main-description-title{
+        margin-left: 60px;
+    }
+    .sponspors-port-b{
+       flex-direction: column;
+       height: 100px;
+       width: 100px;
+       margin-top: 130px;
+        margin-bottom: 130px;
+        margin-left: 250px;
+       }
+       .about-img{
+        margin-left: 90px;
+       }
+    }
