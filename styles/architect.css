@@ -4,9 +4,10 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
-   
+
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -18,7 +19,7 @@ header {
     background-color: #ff8f0e11;
     height: 100%;
     width: 100%;
-    
+
 
 }
 
@@ -88,7 +89,7 @@ header {
     border-radius: 8px;
     font-weight: 600;
     font-size: 16px;
-  
+
     padding: 5px;
     margin-top: 15px;
     border: 0;
@@ -120,7 +121,7 @@ main {
     height: 250px;
     overflow: clip;
     border-radius: 8px;
-   
+
 
 }
 
@@ -129,7 +130,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 5px;
     grid-column-gap: 5px;
-   
+
 }
 
 .main-description-title {
@@ -163,36 +164,41 @@ main {
     border-radius: 8px;
     font-weight: 600;
     font-size: 16px;
-   
+
     padding: 5px;
     margin-top: 15px;
     border: 0;
 }
+
 /* text descirption css */
-.text-description{
+.text-description {
     display: flex;
     margin-top: 50px;
     gap: 40px;
-  
+
 
 }
-.main-text{
+
+.main-text {
     box-shadow: 0px 0px 40px #00000026;
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
 
 }
-.description-title{
+
+.description-title {
     border-left: 5px solid #FF900E;
     font-size: 35px;
     font-weight: 700;
 }
-.main-text-img{
+
+.main-text-img {
     height: 100%;
     width: 500px;
 }
-.main-text-btn{
+
+.main-text-btn {
     color: #FFFFFF;
     font-weight: 700;
     padding: 30px;
@@ -201,37 +207,108 @@ main {
     margin-left: -30px;
     background-color: #FF900E;
     border-radius: 10px;
-    
+
 }
-#year-style{
+
+#year-style {
     font-size: 45px;
 }
+
 /* some section css */
 
-.some-section{
+.some-section {
     margin-top: 150px;
 }
-.some-title{
+
+.some-title {
     font-weight: 900;
     font-size: 30px;
     color: #131313;
 }
-.some-description{
-    color:#727272 ;
+
+.some-description {
+    color: #727272;
     margin-top: -10px;
 }
-.some-facts{
+
+.some-facts {
     border: 2px solid chocolate;
     text-align: center;
-   padding: 15px;
-   width: 200px;
-   border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
 }
-.some-container{
+
+.some-container {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.some-facts:hover{
+
+.some-facts:hover {
     background-color: aqua;
+}
+/* about site */
+.about-site{
+    text-align: center;
+    justify-items: center;
+}
+.about-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.about-img{
+    display: flex;
+    
+    gap: 70px;
+    justify-items:center ;
+    margin-left: 50px;
+    
+}
+.about-img img{
+width: 400px;
+height: 300px;
+border-radius: 15px;
+
+}
+.about-img img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+/* sponspors port css */
+.sponspors-port-a {
+    text-align: center;
+}
+
+.sponspors-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponspors-description {
+    font-weight: 400;
+    font-size: 12px;
+
+}
+.sponspors-port-b{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.sponspors-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/* Footer Style */
+footer {
+    background-color: #FFF4E7;
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 60px;
+    margin: 70px;
+    font-weight: 400;
 }
